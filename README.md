@@ -17,7 +17,7 @@ No extra setup is required. The helper file is autoloaded via the "autoload" att
 
 Publish config file using Artisan command:
 ```bash
-$ php artisan vendor:publish --vendor="Lordsling\ApiResponse\ApiResponseServiceProvider"
+$ php artisan vendor:publish --provider="Lordsling\ApiResponse\ApiResponseServiceProvider"
 ```
 
 > Check `config/api-response.php` and read comments there if you need.
