@@ -1,0 +1,40 @@
+{
+    "name": "lordsling/api-response",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "keywords": [
+        "api",
+        "response",
+        "laravel",
+        "json",
+        "php",
+        "restful",
+        "RESTful API"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lordsling\\ApiResponse\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Lordsling",
+            "email": "contact@lordsling.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lordsling\\ApiResponse\\ApiResponseServiceProvider"
+            ],
+            "aliases": {
+                "ApiResponse": "Lordsling\\ApiResponse\\Facade\\ApiResponse"
+            }
+        }
+    }
+}
